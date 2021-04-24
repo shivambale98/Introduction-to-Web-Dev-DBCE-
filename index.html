@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="web.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Introduction to Web Development</title>
   </head>
   <body>
@@ -220,58 +222,123 @@
         <h2 class="title-text white">They <span>S</span>aid About Us</h2>
         <h3 class="white">Testimonials describe what has been, and are a promise of what is to come</h3>
       </div>
+      <div class="swiper-container">
+        <div class="content swiper-wrapper">
 
-      <div class="content">
-
-         <div class="box">
+          <div class="box swiper-slide">
+            <div class="imgBx">
+              <img src="./Assets/testi1.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>
+               "Thalassa is the place to be in Goa. True greek appearance, 
+               perched in the water’s edge, it is a place not to miss in Goa. 
+               We went at lunchtime so the place was not crowded but it was lively."
+              </p>
+              <h3>John Doe</h3>
+            </div>
+          </div>
+ 
+ 
+         <div class="box swiper-slide">
            <div class="imgBx">
-             <img src="./Assets/testi1.jpg" alt="">
+             <img src="./Assets/testi3.jpg" alt="">
            </div>
            <div class="text">
              <p>
-              Thalassa is the place to be in Goa. True greek appearance, 
+              "Thalassa is the place to be in Goa. True greek appearance, 
               perched in the water’s edge, it is a place not to miss in Goa. 
-              We went at lunchtime so the place was not crowded but it was lively. 
-              Food is excellent and so is the ambiance. Reaching this place may not be easy but google 
-              maps give accurate directions. If you are planning to go in the evening, do book in advance.
+              We went at lunchtime so the place was not crowded but it was lively."
+             </p>
+             <h3>John Doe</h3>
+           </div>
+         </div>
+ 
+         <div class="box swiper-slide">
+           <div class="imgBx">
+             <img src="./Assets/testi2.jpg" alt="">
+           </div>
+           <div class="text">
+             <p>
+              "Thalassa is the place to be in Goa. True greek appearance, 
+              perched in the water’s edge, it is a place not to miss in Goa. 
+              We went at lunchtime so the place was not crowded but it was lively."
              </p>
              <h3>John Doe</h3>
            </div>
          </div>
 
 
-        <div class="box">
-          <div class="imgBx">
-            <img src="./Assets/testi3.jpg" alt="">
-          </div>
-          <div class="text">
-            <p>
-             Thalassa is the place to be in Goa. True greek appearance, 
-             perched in the water’s edge, it is a place not to miss in Goa. 
-             We went at lunchtime so the place was not crowded but it was lively. 
-             Food is excellent and so is the ambiance. Reaching this place may not be easy but google 
-             maps give accurate directions. If you are planning to go in the evening, do book in advance.
-            </p>
-            <h3>John Doe</h3>
-          </div>
-        </div>
+         <div class="box swiper-slide">
 
-        <div class="box">
           <div class="imgBx">
             <img src="./Assets/testi2.jpg" alt="">
           </div>
           <div class="text">
             <p>
-             Thalassa is the place to be in Goa. True greek appearance, 
+             "Thalassa is the place to be in Goa. True greek appearance, 
              perched in the water’s edge, it is a place not to miss in Goa. 
-             We went at lunchtime so the place was not crowded but it was lively. 
-             Food is excellent and so is the ambiance. Reaching this place may not be easy but google 
-             maps give accurate directions. If you are planning to go in the evening, do book in advance.
+             We went at lunchtime so the place was not crowded but it was lively."
             </p>
             <h3>John Doe</h3>
           </div>
-        </div>
+        
+         </div>
+
+       </div>
+       <div class="navigation">
+        <div class="swiper-button-prev">
+          <svg width="65px" height="65px" stroke="white" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Buttons / Arrow Left</title>
+            <defs>
+                <filter id="filter-1">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+                </filter>
+            </defs>
+            <g id="Desktop" stroke="white" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="001.00-Homepage" transform="translate(-1232.000000, -616.000000)">
+                    <g id="Group-21" transform="translate(930.000000, 616.000000)">
+                        <g id="Buttons-/-Arrow-Left" transform="translate(302.000000, 0.000000)">
+                            <g>
+                                <g id="Arrow-Left" transform="translate(32.500000, 32.500000) scale(-1, 1) translate(-32.500000, -32.500000) " stroke="#ffffff" stroke-width="0.819672131">
+                                    <circle id="Oval" cx="32.5" cy="32.5" r="32.0901639"></circle>
+                                </g>
+                                <polyline id="Path-4" stroke="#ffffff" stroke-width="1.5" transform="translate(34.107890, 32.267950) scale(-1, 1) translate(-34.107890, -32.267950) " points="30.3813234 24.46795 37.8344559 32.2678156 30.3813234 40.06795"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+         </div>
+         <div class="swiper-button-next">
+          <svg width="65px" height="65px" stroke="white" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Buttons / Arrow Right</title>
+            <defs>
+                <filter id="filter-1">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+                </filter>
+            </defs>
+            <g id="Desktop" stroke="white" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="001.00-Homepage" transform="translate(-1305.000000, -616.000000)">
+                    <g id="Group-21" transform="translate(930.000000, 616.000000)">
+                        <g id="Buttons-/-Arrow-Right" transform="translate(375.000000, 0.000000)">
+                            <g>
+                                <g id="Arrow-Right" stroke="#ffffff" stroke-width="0.819672131">
+                                    <circle id="Oval-Copy" cx="32.5" cy="32.5" r="32.0901639"></circle>
+                                </g>
+                                <polyline id="Path-4" stroke="#ffffff" stroke-width="1.5" points="30.3813234 24.46795 37.8344559 32.2678156 30.3813234 40.06795"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+         </div>
+       </div>
+         
       </div>
+      
     </section>
 
     <section class="contact-us" id="contactUs">
@@ -301,6 +368,54 @@
         </div>
       </div>
     </section>
-    <script type="text/javascript" src="web.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper-container', {
+ 
+ loop: true,
+ grabCursor: true,
+ centeredSlides: true,
+ slidesPerView : '1',
+//  spaceBetween: 25,
+
+
+ // If we need pagination
+ pagination: {
+   el: '.swiper-pagination',
+ },
+
+ // Navigation arrows
+ navigation: {
+   nextEl: '.swiper-button-next',
+   prevEl: '.swiper-button-prev',
+ },
+
+//  breakpoints
+breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          centeredSlides: false,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+          centeredSlides: false,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          centeredSlides: false,
+        },
+      }
+ 
+});
+    </script>
+    
+
+
   </body>
 </html>
